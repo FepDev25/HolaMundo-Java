@@ -1,7 +1,7 @@
 public class ManejoArchivosMain {
     public static void main(String[] args) {
         String nombreArchivo = "archivo.txt";
-        // ManejoArchivos.crearArchivo(nombreArchivo);
+        ManejoArchivos.crearArchivo(nombreArchivo);
 
         String textoEscribir = "Hola me llamo Felipe y tengo 19 years\n";
         ManejoArchivos.escribirArchivo(nombreArchivo, textoEscribir);
